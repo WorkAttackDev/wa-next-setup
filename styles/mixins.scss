@@ -1,0 +1,30 @@
+@import "./variables";
+
+// Media query mixin
+@mixin phone-mid-screen-up {
+  @media (min-width: $phone-mid) {
+    @content;
+  }
+}
+@mixin phone-large-screen-up {
+  @media (min-width: $phone-large) {
+    @content;
+  }
+}
+
+@mixin tablet-screen-up {
+  @media (min-width: $tablet) {
+    @content;
+  }
+}
+
+@mixin desktop-screen-up {
+  @media (min-width: $desktop) {
+    @content;
+  }
+}
+@mixin landscape-screen-up {
+  @media (min-width: $landscape) {
+    @content;
+  }
+}
