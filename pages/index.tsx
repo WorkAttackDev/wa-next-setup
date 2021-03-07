@@ -1,9 +1,12 @@
-const HomePage = ()=> {
+import MetaTags from "../features/core/MetaTags";
+
+const HomePage = () => {
   return (
-    <div >
+    <main>
+      <MetaTags />
       <h1>WorkAttack</h1>
-    </div>
-  )
-}
+    </main>
+  );
+};
 
 export default HomePage;
